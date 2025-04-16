@@ -1,4 +1,3 @@
-```markdown
 # styleFX-KSH.lib
 
 **Version:** 0.0.5
@@ -31,58 +30,3 @@ Unlike bloated frameworks, this library avoids in-line documentation and runtime
 . /path/to/styleFX-KSH.lib
 
 print -n "${styleFX.bold}${styleFX.fg.cyan}Hello, World!${styleFX.reset}\n"
-```
-
----
-
-## Output Example
-
-```
-Hello, World!
-```
-*Text appears bold and cyan in compatible terminals.*
-
----
-
-## Preprocessing Tags
-
-This library uses standardized comment tags to assist with source parsing and documentation extraction:
-
-- `#L#` → Layout and divider lines
-- `#S#` → Section headers
-- `#C#` → Internal developer comments
-- `#D#` → Documentation comments (strippable for minimal builds)
-
----
-
-## Developer Philosophy
-
-- Documentation and help content are stored **outside** the core library
-- Loading behavior is controlled by the developer's environment or script
-- No embedded function logic or dynamic evaluation — this keeps execution clean
-
----
-
-## Planned Enhancements
-
-- Semantic themes (e.g., `styleFX.alert.warning`, `styleFX.status.ok`)
-- Optional support for 256-color and truecolor (RGB)
-- Extension libraries for terminal-specific controls (e.g., `styleFX-gnome-TERM.lib`)
-
----
-
-## Author
-
-Binware-Core < dev-admin@dev.binware-core.com >
-GitHub: 
-
----
-
-## License
-
-This project is released under your choice of:
-
-- [MIT License](https://opensource.org/licenses/MIT)
-- [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)
-```
-
