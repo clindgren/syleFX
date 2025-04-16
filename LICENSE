@@ -2,9 +2,8 @@
 This file is part of the Binware-Core project.
 #================================================================================================#
 
-SPDX-License-Identifier: MPL-2.0 OR GPL-3.0-or-later
-
-You may choose to license and use this file under the terms of either:
+You may choose to license and use this file under the terms of both/either:
+However, all works dirived from this library MUST comply with the provisions provided.
 
  1. Mozilla Public License, version 2.0 (MPL-2.0)
     https://www.mozilla.org/MPL/2.0/
