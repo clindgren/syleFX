@@ -2,7 +2,9 @@
 
 ---
 
-**Version:** 0.0.5
+**Source Code Version:** v.0.0.5
+
+**Document Version:** v.0.0.1
 
 **Shell:** KornShell 93 (KSH93)
 
